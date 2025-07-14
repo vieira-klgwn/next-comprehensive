@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.24.0",
     "@prisma/client": "^6.11.1",
     "@prisma/extension-accelerate": "^2.0.2",
     "cloudinary": "^2.7.0",
     "fast-sort": "^3.4.1",
     "next": "15.3.5",
+    "next-auth": "^5.0.0-beta.29",
     "next-cloudinary": "^6.16.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -28,7 +28,7 @@ export default async function Home() {
 
           signatureEndpoint="/api/sign-cloudinary-params"
 
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          className="btn btn-primary"
 
           // The uploadPreset prop is the name of the upload preset that we created in Cloudinary
 
@@ -36,7 +36,35 @@ export default async function Home() {
 
           options={{
 
+
+
             tags: ["photo_from_the_app"],
+            sources:['local'],
+            multiple:false,
+            maxFiles:5,
+            styles: {        palette: {
+            window: "#F5F5F5",
+            sourceBg: "#FFFFFF",
+            windowBorder: "#90a0b3",
+            tabIcon: "#0094c7",
+            inactiveTabIcon: "#69778A",
+            menuIcons: "#0094C7",
+            link: "#53ad9d",
+            action: "#8F5DA5",
+            inProgress: "#0194c7",
+            complete: "#53ad9d",
+            error: "#c43737",
+            textDark: "#000000",
+            textLight: "#FFFFFF"
+        },
+        fonts: {
+            default: null,
+            "'Poppins', sans-serif": {
+                url: "https://fonts.googleapis.com/css?family=Poppins",
+                active: true
+            }
+        }
+    }
 
           }}
 
