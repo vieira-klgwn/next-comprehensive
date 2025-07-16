@@ -1,1 +1,0 @@
-This is all you need to know in next application except from authentication and emails
